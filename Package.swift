@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "VungleAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/vungle-adapter/5.4.0/ISVungleAdapter5.4.0.zip",
-      checksum: "03f0e76fed57c60537b8df73999900e14465c2555c14ddd71906f0f0997f0ef7"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/vungle-adapter/5.5.0/ISVungleAdapter5.5.0.zip",
+      checksum: "a45fd37e034d08efa537796d35470175d7ccef58559542df2fff5532cbcabda7"
     )
   ]
 )
