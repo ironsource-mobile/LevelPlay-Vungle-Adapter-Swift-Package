@@ -30,7 +30,7 @@ dependencies: [
 
 This package includes:
 - LevelPlay iOS SDK (Unity Mediation SDK)
-- Vungle SDK v7.6.3
+- Vungle SDK
 
 ## Documentation
 
