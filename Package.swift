@@ -9,7 +9,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager", exact: "7.7.4"),
-    .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.2.0"..<"10.0.0"),
+    .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
     .target(
@@ -17,7 +17,7 @@ let package = Package(
       dependencies: [
         "VungleAdapterSDK",
         .product(name: "VungleAdsSDK", package: "VungleAdsSDK-SwiftPackageManager"),
-        .product(name: "UnityMediationSDK", package: "Unity-Mediation-iAds-Swift-Package"),
+        .product(name: "UnityMediationSDK", package: "LevelPlay-Swift-Package"),
       ]
     ),
     .binaryTarget(
