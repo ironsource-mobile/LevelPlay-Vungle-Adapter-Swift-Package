@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "VungleAdapter", targets: ["VungleAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager", exact: "7.7.6"),
+    .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager", exact: "7.7.7"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "VungleAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/vungle-adapter/5.13.0/ISVungleAdapter5.13.0.zip",
-      checksum: "4b7731b8adc832bb7384cdc1b5b5d1f862c7de324c2da4c433167e00af475f76"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/vungle-adapter/5.14.0/ISVungleAdapter5.14.0.zip",
+      checksum: "8c89d72b3cf751b052625a2774844ce23bbb1d6783f7f12b3351948464e607a8"
     )
   ]
 )
